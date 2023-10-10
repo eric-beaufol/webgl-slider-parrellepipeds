@@ -6,7 +6,6 @@ import cubeVertex from './shaders/cube/vertex.glsl'
 import Stats from 'stats.js'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import gsap from 'gsap'
-import { kdTree } from 'kd-tree-javascript'
 
 /**
  * Base
@@ -94,7 +93,6 @@ const PARRELLELEPIPEDS = [
     height: 2
   }
 ]
-const PARRELLELEPIPEDS_COUNT = 30
 
 
 // Debug
